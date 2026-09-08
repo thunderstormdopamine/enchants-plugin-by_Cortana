@@ -1,0 +1,13 @@
+name: CustomEnchants
+version: 1.0
+main: com.example.customenchants.Main
+api-version: 1.16
+commands:
+  enchant:
+    description: Выдать предмет с кастомным зачарованием
+    usage: /enchant give <игрок> <название> [уровень]
+    permission: enchant.give
+permissions:
+  enchant.give:
+    description: Разрешает выдачу зачарований
+    default: op
